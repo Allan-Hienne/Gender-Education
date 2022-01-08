@@ -1,0 +1,30 @@
+:root {
+
+    --font-mont: 'Montserrat', sans-serif;
+    --font-arvo: 'Arvo', serif;
+    --font-libre: 'Libre Baskerville', serif;
+
+    /* Color styles */
+--blanc: rgba(255, 255, 255, 1);
+--bleu_fonce: rgba(3, 4, 94, 1);
+--noir: rgba(0, 0, 0, 1);
+--bleu_mid: rgba(62, 58, 143, 1);
+
+    /* Text-size styles */
+--corp-de-texte: texte: 14px;
+--titres: 18px;
+--footer_titre: 12px;
+--titres_principaux: 24px;
+--legendes: 11px;
+--etiquette: 36px;
+
+    /* Espaces */
+--space1x: 8px;
+--space2x: 16px;
+--space3x: 24px;
+--space4x: 48px;
+--space5x: 80px;
+}
+
+
+

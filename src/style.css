@@ -1,0 +1,33 @@
+body {
+    background: linear-gradient(180deg, #03045E 0%, #3E3A8F 32.81%, #03045E 100%);
+    margin: 0%;
+    padding: 0%;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+/*Vendors*/
+@import url("/src/css/vendors/normalize.css");
+
+/*Utils*/
+@import url("/src/css/utils/variable.css");
+
+/*Base*/
+@import url("/src/css/base/main.css");
+@import url("/src/css/base/media.css");
+
+/*Layout*/
+@import url("/src/css/layout/header.css");
+@import url("/src/css/layout/footer.css");
+@import url("/src/css/layout/frise.css");
+@import url("/src/css/layout/a-propos-contact.css");
+@import url("/src/css/layout/autres_projets.css");
+
+/*Components*/
+@import url("/src/css/components/menu.css");
+@import url("/src/css/components/button.css");
+@import url("/src/css/components/card.css");
+@import url("/src/css/components/carousel.css");
