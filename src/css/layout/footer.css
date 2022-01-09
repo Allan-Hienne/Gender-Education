@@ -1,0 +1,41 @@
+.flecheTop {
+    padding-bottom: 20%;
+    padding-top: 20%;
+    text-align:center;
+    margin:auto;
+    display:flex;
+}
+
+.suivre {
+    color: white;
+    font-family: var(--font-mont);
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 20%;
+    margin-left: 27%;
+}
+
+.facebook {
+    margin-left: 10%;
+}
+
+.linked {
+    margin-left: 22%;
+}
+
+.insta {
+    margin-left: 10%;
+}
+
+.mmi {
+    position: relative;
+    top: 90px;
+    right: 260px;
+}
+
+.projet {
+    position: relative;
+    top: 20px;
+    right: -20px;
+    margin-bottom: 20%;
+}

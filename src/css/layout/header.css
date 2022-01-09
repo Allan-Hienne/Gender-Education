@@ -1,0 +1,20 @@
+.logo {
+
+        width: 122px;
+        height: 92px;
+        padding-top: 60px;
+        text-align:center;
+        margin:auto;
+        display:flex;
+}
+
+.menu {
+    position: absolute;
+    left: 84%;
+    right: 29.39%;
+    top: 2%;
+    bottom: 70.23%;
+    width: 44px;
+    height: 40px;
+
+}

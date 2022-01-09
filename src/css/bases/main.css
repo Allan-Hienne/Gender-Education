@@ -1,0 +1,64 @@
+body {
+    background: linear-gradient(180deg, #03045E 0%, #3E3A8F 32.81%, #03045E 100%);
+    margin: 0%;
+    padding: 0%;
+}
+
+.intro {
+    color: white;
+    font-family: var(--font-mont);
+    font-size: 14px;
+    font-weight: 300;
+    margin-right: 10%;
+    margin-left: 15%;
+}
+
+p {
+    color: white;
+    font-family: var(--font-mont);
+    font-size: 12px;
+    font-weight: 300;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.ligne {
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+
+h1 {
+    font-size: 18px;
+    font-family: var(--font-arvo);
+    font-weight: 700;
+    margin-left: 13%;
+    margin-right: 10%;
+    color: white;
+
+}
+
+.ecole {
+    padding-bottom: 5%;
+    padding-top: 5%;
+    text-align:center;
+    margin:auto;
+    display:flex;
+}
+
+.emma {
+    padding-bottom: 5%;
+    padding-top: 5%;
+    text-align:center;
+    margin:auto;
+    display:flex;
+}
+
+.disney {
+    padding-bottom: 5%;
+    padding-top: 5%;
+    text-align:center;
+    margin:auto;
+    display:flex;
+
+}

@@ -1,0 +1,19 @@
+.button {
+    
+    color: #03045E;
+    background-color: white;
+    text-align:center;
+    display:flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: var(--font-arvo);
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-weight: 500;
+
+}
