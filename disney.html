@@ -8,20 +8,22 @@
     <title>Gender Education</title>
     
     
+    
     <link rel="stylesheet" href="src/style.css">
     
     <script src="https://animejs.com/lib/anime.min.js"> </script>
 </head>
 
-<body x-data="{ atTop: true }">
+<body>
 
     <header>
         
             <div>
+                <img src="./public/icones/Menu Hamburger.svg" alt="menu" class="menu">
                 <a href="/">
-                    <img src="public/icones/Logo GE 1.svg" alt="Logo">
+                    <img src="public/icones/Logo GE 1.svg" alt="Logo" class="GE">
                     </a>
-                    <img src="./public/icones/Menu Hamburger.svg" alt="menu">
+                    
                     </div>
 
         <nav>
@@ -38,12 +40,12 @@
     </header>
 
         <main>
-            <p>Une part de féminisme chez Disney</p>
+            <h2>Une part de féminisme chez Disney</h2>
             <p>Affiche du film “La Belle et la Bête</p>
-            <img src="./public/img/Photo du film La Belle et la Bête 2.svg" alt="La belle et la bête">
+            <img src="./public/img/Photo du film La Belle et la Bête 2.svg" alt="La belle et la bête" class="affiche">
             <p>Étant petit, la plupart de nos parents nous ont déjà raconté des dizaines voir des centaines d’histoires de contes de fées. Mais saviez-vous que parmi ces histoires, nous pouvions apercevoir une part de féminisme ? C’est de ça dont nous allons parler aujourd’hui et plus particulièrement de l’adaptation de “La Belle et la Bête” au cinéma.
             </p>
-            <p>Quand la princesse sauve le prince</p>
+            <p class="titreArticle">Quand la princesse sauve le prince</p>
             <p>La Belle et la Bête est à la base un conte racontant l’histoire d’une jeune femme que l’on appelle “la belle” voulant sauver son père condamné à mort pour avoir cueillit une rose dans le domaine d’un terrible monstre que l’on nomme “la bête”. La belle se sacrifia alors à celui-ci en échangeant sa vie contre celle de son père. Mais la bête décida malgré tout d’épargner la belle et lui permit de vivre dans son château. C’est ainsi en vivant côte à côte que la belle s’aperçut que derrière les traits de l’animal sauvage, se cachait en fait un homme souffrant et victime d’un sortilège. Ce conte a fait l’objet de nombreuses adaptations que ce soit au cinéma, au théâtre ou en livre, la plus connue étant l’adaptation faite pour les enfants par les studios Disney.
                 Ce conte est d’un tout nouveau genre, c’est l’un des premiers où la princesse sauve le prince, et non l’inverse. En effet, dans un premier temps c’est elle qui sauve la bête du terrible Gaston, l’antagoniste de l’histoire. Puis dans un second temps, c’est elle qui le délivre de la malédiction dont il était victime.
             </p>
@@ -53,7 +55,7 @@
                 <source src="./public/video/Bande annonce.mp4"
                         type="video/mp4">
             </video>
-            <p>Livres et connaissances, une indépendance</p>
+            <p class="titreArticle">Livres et connaissances, une indépendance</p>
             <p>Cette partie de l’histoire est plus développé dans la très récente adaptation au cinéma où l’actrice et féministe Emma Watson joue le rôle du personnage principale “Belle”.
                 Selon l’actrice : “la soif de connaissances de Belle, qu'elle étanche dans les livres, joue un rôle majeur dans son indépendance.”
                 
@@ -61,7 +63,8 @@
                 Cela s’explique par le fait que les habitants ne pensent pas qu’une femme devrait savoir lire ou écrire, ils se méfient de l’intelligence. Une femme possédant des connaissances à l’époque était très mal perçu par les hommes. En cassant cette machine à laver, ils espèrent briser l’esprit de Belle devenant de plus en plus indépendante et ainsi la pousser à redevenir une femme “normal”.
             </p>
 
-            <p>D’autres exemples</p>
+            <p class="titreArticle">D’autres exemples</p>
+            <div class="espaceC">
             <p>La Belle et la Bête n’est pas la seule œuvre où le personnage féminin brille sur le personnage masculin, nous allons donc voir quelques-unes de ces œuvres.
                 Pour commencer, l’une des héroïnes les plus fortes de Disney, Pocahontas.
                 Une jeune femme se battant pour maintenir la paix entre son peuple indien et les colons qui envahissent l’Amérique.
@@ -71,48 +74,94 @@
                 Une femme n’ayant pas son mot à dire devant ses parents, son problème étant un mariage arangée. Le plus fort durant un festival recevra la main de Mérida, cependant elle ira jusqu’à participer elle-même à ce festival dont elle est le prix pour se sortir de cette situation.
                 Comment parler de femmes fortes dans les films Disney sans évoquer Mulan ? Héroïne qui ira jusqu’à se faire passer pour un homme pour sauver la Chine toute entière. Elle nous prouvera tout au long de l’aventure qu’une femme peut tout faire exactement comme un homme voire mieux ! Mulan n’en a que faire des stéréotypes de genre, elle impose le respect.
             </p>
-            <img src="./public/img/Mulan 1.svg" alt="Mulan">
-            <img src="./public/img/Pocahontas 1.svg" alt="Pocahontas">
-            <img src="./public/img/Rebelle 1.svg" alt="Rebelle">
-            <p>Affiche du Film "Mulan"</p>
-            <p>Affiche du Film "Pocahontas"</p>
-            <p>Affiche du Film "Rebelle</p>
-            <p>Cliquez pour faire défiler les affiches</p>
-            <img src="./public/icones/élément graphique.svg" alt="Ligne blanc">
+            </div>
+            <div class="Car">
+            <div class="container">
+                <input type="radio" name="slider" id="item-1" checked>
+                <input type="radio" name="slider" id="item-2">
+                <input type="radio" name="slider" id="item-3">
+              <div class="cards">
+                <label class="card" for="item-1" id="song-1">
+                  <img src="./public/img/Mulan 1.svg" alt="song" class="imgC">
+                </label>
+                <label class="card" for="item-2" id="song-2">
+                  <img src="./public/img/Pocahontas 1.svg" alt="song" class="imgC">
+                </label>
+                <label class="card" for="item-3" id="song-3">
+                  <img src="./public/img/Rebelle 1.svg" alt="song" class="imgC">
+                </label>
+              </div>
+              <div class="player">
+                <div class="upper-part">
+                  <div class="play-icon">
+                    
+                      <defs/>
+                      <path d="M5 3l14 9-14 9V3z"/>
+                    </svg>
+                  </div>
+                  <div class="info-area" id="test">
+                    <label class="song-info" id="song-info-1">
+                      <div class="title">Mulan</div>
+                      <div class="sub-line">
+                        <div class="subtitle">Affiche de film</div>
+                      </div>
+                    </label>
+                    <label class="song-info" id="song-info-2">
+                      <div class="title">Pocahontas</div>
+                      <div class="sub-line">
+                        <div class="subtitle">Affiche de film</div>
+                      </div>
+                    </label>
+                    <label class="song-info" id="song-info-3">
+                      <div class="title">Rebelle</div>
+                      <div class="sub-line">
+                        <div class="subtitle">Affiche de film</div>
+                      </div>
+                    </label>
+                  </div>
+                </div>
+                <div class="progress-bar">
+                </div>
+              </div>
+            </div>
+        </div>
+            
+            <img src="./public/icones/élément graphique.svg" alt="Ligne blanc" class="ligne">
 
 
-            <p>LIRE AUSSI</p>
-
-            <article>
-                <p>L’éducation, un rôle essentiel</p>
-                <img src="./public/img/Ouverture des lycées pour femme.svg" alt="école">
-                <p>En France, le droit de scolarisation des femmes fut une longue et difficile bataille. 
-                    Cependant l’égalité avec les hommes reste inachevée.
-                </p>
-                <a href="éducation.html">Lire l'article</a>
-                <img src="./public/icones/Line 12.svg" alt="ligne noir">
-            </article>
-
-            <article>
-                <p>Emma Watson, une icône importante du féminisme</p>
-                <img src="./public/img/Portrait Emma WATSON.svg" alt="Portrait Emma Watson">
-                <p>Née le 15 Avril 1990, Emma Watson, actrice engagée, Ambassadrice de bonne volonté d'ONU Femmes, est maintenant une figure importante du féminisme.</p>
-                <a href="emma_watson.html">Lire l'article</a>
-                <img src="./public/icones/Line 12.svg" alt="Ligne noir">
-            </article>
-
-            <img src="./public/icones/Flèche Back-up.svg" alt="Flêche back to top">
-
-        </main>
-
-        <footer>
-            <p>Suivez-nous ici</p>
-            <img src="./public/icones/facebook 2-1.svg" alt="Facebook">
-            <img src="./public/icones/linkedin 1-1.svg" alt="LinkedIn">
-            <img src="./public/icones/instagram 2-1.svg" alt="Insta">
-            <img src="./public/icones/MMI_dut_white_png 1.svg" alt="Logo MMI">
-            <p>Projet réalisé dans le cadre d’un exercice pédagogique au département MMi de Montbéliard</p>
-        </footer>
-    </body>
+            <div class="lire">
+                <p class="lireAussi">LIRE AUSSI</p>
+            </div>
     
-</html>
+            <article>
+                <h1>L’éducation, un rôle essentiel</h1>
+                <img src="./public/img/Ouverture des lycées pour femme.svg" alt="école" class="ecole">
+                <h3>En France, le droit de scolarisation des femmes fut une longue et difficile bataille. 
+                    Cependant l’égalité avec les hommes reste inachevée.
+                </h3>
+                <a href="éducation.html" class="button">Lire l'article</a>
+                <img src="./public/icones/Line 12.svg" alt="ligne noir" class="ligne">
+            </article>
+            
+            <article>
+                <h1>Emma Watson, une icône importante du féminisme</h1>
+                <img src="./public/img/Portrait Emma WATSON.svg" alt="Portrait Emma Watson" class="emma">
+                <h3>Née le 15 Avril 1990, Emma Watson, actrice engagée, Ambassadrice de bonne volonté d'ONU Femmes, est maintenant une figure importante du féminisme.</h3>
+                <a href="emma_watson.html" class="button">Lire l'article</a>
+                <img src="./public/icones/Line 12.svg" alt="Ligne noir" class="ligne">
+            </article>
+    
+    
+            </main>
+    
+            <footer>
+                <p class="suivre">SUIVEZ-NOUS ICI</p>
+                <img src="./public/icones/linkedin 1-1.svg" alt="LinkedIn" class="linked">
+                <img src="./public/icones/instagram 2-1.svg" alt="Insta" class="insta">
+                <img src="./public/icones/facebook 2-1.svg" alt="Facebook" class="facebook">
+                <img src="./public/icones/MMI_dut_white_png 1.svg" alt="Logo MMI" class="mmi">
+                <p class="projet">Projet réalisé dans le cadre d’un exercice pédagogique au département MMi de Montbéliard</p>
+            </footer>
+        </body>
+        
+    </html>

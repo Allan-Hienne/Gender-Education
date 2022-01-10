@@ -1,0 +1,12 @@
+.affiche {
+    width: 240px;
+    height: 355px;
+    text-align:center;
+    margin:auto;
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.espaceC {
+    margin-bottom: 350px;
+}

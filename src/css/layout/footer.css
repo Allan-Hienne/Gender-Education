@@ -34,8 +34,8 @@
 }
 
 .projet {
-    position: relative;
-    top: 15px;
-    right: -55px;
-    margin-bottom: 20%;
+    font-size: 12px;
+    margin-left: 22%;
+    margin-top: 8%;
+    margin-bottom: 10%;
 }

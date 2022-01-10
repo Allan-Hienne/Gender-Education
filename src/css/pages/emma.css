@@ -1,0 +1,27 @@
+.portrait1 {
+    width: 285px;
+    height: 500px;
+    text-align:center;
+    margin:auto;
+    display: flex;
+    margin-bottom: 5%;
+
+}
+
+.conference {
+    height: 221px;
+    width: 375px;
+    text-align:center;
+    margin:auto;
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.portrait2 {
+    text-align:center;
+    margin:auto;
+    display: flex;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
