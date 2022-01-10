@@ -28,4 +28,14 @@
 @import url("./css/components/button.css");
 @import url("./css/components/card.css");
 @import url("./css/components/carousel.css");
+@import url("./css/components/etiquette.css");
+
+/*pages*/
+@import url("./css/pages/index.css");
+@import url("./css/pages/education.css");
+@import url("./css/pages/emma.css");
+@import url("./css/pages/disney.css");
+@import url("./css/pages/galerie.css");
+@import url("./css/pages/autres_projets.css");
+@import url("./css/pages/a_propos.css");
 

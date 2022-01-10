@@ -1,0 +1,18 @@
+.lireAussi {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--font-mont);
+    
+    
+}
+
+.lire {
+    background-color: #03045E;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    font-size: 36px;
+    font-family: var(--font-mont);
+    font-weight: 700;
+}

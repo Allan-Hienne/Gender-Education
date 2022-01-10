@@ -1,0 +1,35 @@
+.tailleP1 {
+    width: 375px;
+    height: 276px;
+    text-align:center;
+    margin:auto;
+    margin-bottom: 5%;
+}
+
+.tailleP2 {
+    width: 375px;
+    height: 343px;
+    text-align:center;
+    margin:auto;
+    margin-bottom: 5%; 
+}
+
+.tailleP3 {
+    width: 375px;
+    height: 210px;
+    text-align:center;
+    margin:auto;
+    margin-bottom: 5%;
+}
+
+.flecheF {
+    text-align:center;
+    margin:auto;
+    display: flex;
+    margin-bottom: 20%;
+    margin-top: 20%;
+
+}
+
+
+

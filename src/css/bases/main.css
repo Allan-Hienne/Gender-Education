@@ -4,28 +4,24 @@ body {
     padding: 0%;
 }
 
-.intro {
-    color: white;
-    font-family: var(--font-mont);
-    font-size: 14px;
-    font-weight: 300;
-    margin-right: 10%;
-    margin-left: 15%;
-}
+
 
 p {
     color: white;
     font-family: var(--font-mont);
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 300;
-    margin-right: 15%;
-    margin-left: 15%;
+    margin-right: 7%;
+    margin-left: 7%;
+    line-height: normal;
 }
 
 .ligne {
-    margin-left: 20%;
-    margin-top: 5%;
-    margin-bottom: 7%;
+    text-align:center;
+    margin:auto;
+    display:flex; 
+    margin-top: 15%;
+    margin-bottom: 17%;
 }
 
 h1 {
@@ -38,27 +34,39 @@ h1 {
 
 }
 
-.ecole {
-    padding-bottom: 5%;
-    padding-top: 5%;
-    text-align:center;
-    margin:auto;
-    display:flex;
+
+h2 {
+    font-size: 24px;
+    font-family: var(--font-arvo);
+    font-weight: 600;
+    margin-left: 5%;
+    margin-right: 10%;
+    color: white;
 }
 
-.emma {
-    padding-bottom: 5%;
-    padding-top: 5%;
-    text-align:center;
-    margin:auto;
-    display:flex;
+
+h3 {
+    color: white;
+    font-family: var(--font-mont);
+    font-size: 12px;
+    font-weight: 300;
+    margin-right: 15%;
+    margin-left: 15%;
 }
 
-.disney {
-    padding-bottom: 5%;
-    padding-top: 5%;
+.titreArticle {
+    color: white;
+    font-family: var(--font-arvo);
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 7%;
+    margin-left: 7%;
+    line-height: normal;
+}
+
+.ligneBlanc {
     text-align:center;
     margin:auto;
     display:flex;
-
+    margin-top: 15%; 
 }

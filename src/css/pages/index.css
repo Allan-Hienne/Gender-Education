@@ -1,0 +1,33 @@
+.ecole {
+    padding-bottom: 5%;
+    padding-top: 5%;
+    text-align:center;
+    margin:auto;
+    display:flex;
+}
+
+.emma {
+    padding-bottom: 5%;
+    padding-top: 5%;
+    text-align:center;
+    margin:auto;
+    display:flex;
+}
+
+.disney {
+    padding-bottom: 5%;
+    padding-top: 5%;
+    text-align:center;
+    margin:auto;
+    display:flex;
+
+}
+
+.intro {
+    color: white;
+    font-family: var(--font-mont);
+    font-size: 14px;
+    font-weight: 300;
+    margin-right: 10%;
+    margin-left: 15%;
+}
