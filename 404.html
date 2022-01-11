@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site sur l'histoire de l'éducation des femmes">
+    <title>Gender Education</title>
+    
+    
+    <link rel="stylesheet" href="./src/style.css">
+    
+    <script src="https://animejs.com/lib/anime.min.js"> </script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <header>
+
+        <a href="index.html">
+            <img src="public/icones/Logo GE 1.svg" alt="Logo" class="GE">
+            </a>
+        
+           <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
+               <div class="nav-toggle-bar"></div>
+           </div>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="education.html"><img src="./public/icones/MenuEducation.svg" alt="logoEducation"></a></li>
+                <li><a href="emma_watson.html"><img src="./public/icones/MenuEmma.svg" alt="emma"></a></li>
+                <li><a href="disney.html"><img src="./public/icones/MenuDisney.svg" alt="disney"></a></li>
+                <li><a href="galerie.html"><img src="./public/icones/Menu Galerie.svg" alt="galerie"></a></li>
+                <li><a href="a_propos.html"><img src="./public/icones/MenuPropos.svg" alt="aPropos"></a></li>
+                <li><a href="autres_projets.html"><img src="./public/icones/MenuAutres.svg" alt="autres"></a></li>
+            </ul> 
+            <a class="logoFR" href="index.html"><img src="./public/icones/Bouton Français.svg" alt="logoFr" ></a>
+            <a class="logoEn" href="EN_index.html"><img src="./public/icones/Bouton Anglais.svg" alt="logoEn" ></a> 
+        </nav>
+        
+    </header>
+
+
+        <!-- Titre -->
+        <h2>404 error <br> <br> (fr) Page non trouvée <br> (en) Page not found </h2>
+
+        <form class="form_error" action="https://www.google.com/" method="GET" 
+    x-data="{ q:'', }" 
+    x-on:submit="q = q + 'gender-education.allanhienne.fr:'">
+
+    <input type="text" id="q" name="q" x-model="q" placeholder="Texte à chercher">
+    <button type="submit">Rechercher</button>
+
+    </form>
+
+
+<section class="sitemap_fr">
+    <h2>Section Française</h2>
+    <a href="disney.html" class="button">(FR) Accueil</a>
+
+</section>
+
+
+<section class="sitemap_en">
+
+    <h2 class="title">English Section</h2>
+    <a href="disney.html" class="button">(EN) Homepage</a>
+</section>
+
+
+
+<footer>
+    <p class="suivre">SUIVEZ-NOUS ICI</p>
+    <a href="https://www.linkedin.com/in/allan-hienne-87500b222/">
+        <img src="./public/icones/linkedin 1-1.svg" alt="LinkedIn" class="linked">
+    </a>
+    <a href="https://www.instagram.com/allan_hne/">
+        <img src="./public/icones/instagram 2-1.svg" alt="Insta" class="insta">
+    </a>
+    <a href="https://www.facebook.com/profile.php?id=100012104652628">
+        <img src="./public/icones/facebook 2-1.svg" alt="Facebook" class="facebook">
+    </a>
+    <a href="http://mmimontbeliard.com/">
+        <img src="./public/icones/MMI_dut_white_png 1.svg" alt="Logo MMI" class="mmi">
+        <p class="projet">Projet réalisé dans le cadre d’un exercice pédagogique au département MMi de Montbéliard</p>
+    </a>
+</footer>
+</body>
+
+</html>
