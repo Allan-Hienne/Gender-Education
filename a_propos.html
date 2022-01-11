@@ -8,14 +8,16 @@
     <title>Gender Education</title>
     
     
-    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="./src/style.css">
     
     <script src="https://animejs.com/lib/anime.min.js"> </script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 </head>
 
 <body>
 
     <header>
+
         <a href="index.html">
             <img src="public/icones/Logo GE 1.svg" alt="Logo" class="GE">
             </a>
@@ -32,65 +34,72 @@
                 <li><a href="galerie.html"><img src="./public/icones/Menu Galerie.svg" alt="galerie"></a></li>
                 <li><a href="a_propos.html"><img src="./public/icones/MenuPropos.svg" alt="aPropos"></a></li>
                 <li><a href="autres_projets.html"><img src="./public/icones/MenuAutres.svg" alt="autres"></a></li>
-            </ul> 
+           </ul> 
         </nav>
         
     </header>
 
     <main>
-        <p>L’essentiel à retenir</p>
+        <h2>L’essentiel à retenir</h2>
         <p>Le féminisme est un mouvement qui ne devrait même pas exister, c’est impensable qu’encore aujourd’hui les femmes ne soient pas totalement égales face aux hommes.
-
+<br><br>
             Pour lutter, certaines femmes n’hésitent pas à se faire entendre lors de discours, de débats devant une assemblée. Certaines œuvres que nous connaissons tous possèdent un sens caché mettant en avant le féminisme.</p>
-        <p>INTERVIEW</p>
-        <p>Vous pouvez retrouver ci-dessous une interview réalisée dans le cadre du projet</p>
-        <img src="./public/img/Image Interview.svg" alt="interview">
-        <p>En cours de réalisation ...</p>
-        <p>MERCI</p>
+        <div class="lire">
+            <p class="lireAussi">INTERVIEW</p>
+        </div>
+        <p class="italique">Vous pouvez retrouver ci-dessous une interview réalisée dans le cadre du projet</p>
+        <video controls width="375">
+
+            <source src="./public/video/IUT Belfort Montbéliard, Département Métiers du Multimédia et d'Internet.mp4"
+                    type="video/mp4">
+        </video>
+        <p class="enCours">En cours de réalisation ...</p>
+        <div class="lire">
+        <p class="lireAussi">MERCI</p>
+    </div>
         
         <form>
-            <div class="contact_input">
-                <input type="text" placeholder="Prénom..."> 
-            </div>
+
+                <input type="text" placeholder="Prénom..." class="contact_input">
             <br> 
 
-            <div class="contact_input">
-                <input type="text" placeholder="NOM...">
-            </div>
+                <input type="text" placeholder="NOM..." class="contact_input">
             <br>
 
-            <div class="contact_input">
-                <input type="text" placeholder="E-mail">
-            </div>
+                <input type="text" placeholder="E-mail" class="contact_input">
 
-            <div class="contact_message">
-                <textarea name="" id="" cols="40" rows="5" placeholder="Message..." id="message"></textarea>
-            </div>
 
-            <button class="contact_button">Envoyer</button>
+                <textarea name="" id="" cols="40" rows="5" placeholder="Message..." id="message" class="contact_message"></textarea>
+
+            <button class="contact_button">envoyer</button>
     </form>
 
     <p>Je vous remercie d’avoir pris le temps de visiter ce site réalisé dans le cadre d’une expérience pédagogique au sein du département MMI de Montbéliard.</p>
     <p>Si vous avez appréciez le contenu de ce site, n’hésitez pas à me suivre pour rester informé de mes prochains travaux ainsi que d’autres réalisations de sites.</p>
     <p>SUIVEZ-MOI ICI</p>
-    <img src="./public/icones/facebook 2.svg" alt="facebook">
-    <img src="./public/icones/linkedin 1.svg" alt="linkedIn">
-    <img src="./public/icones/instagram 2.svg" alt="insta">
+    <img src="./public/icones/facebook 2.svg" alt="facebook" class="facebookG">
+    <img src="./public/icones/linkedin 1.svg" alt="linkedIn" class="linkedG">
+    <img src="./public/icones/instagram 2.svg" alt="insta" class="instaG">
     
 
-    <img src="./public/icones/Flèche Back-up.svg" alt="Flêche back to top">
+    <div id="scrollUp">
+        <a href="#top"><img src="./public/icones/Flèche Back-up.svg" alt="Flêche back to top" class="flecheTop"></a>
+    </div>
 
     </main>
 
 
     <footer>
-        <p>Suivez-nous ici</p>
-        <img src="./public/icones/facebook 2-1.svg" alt="Facebook">
-        <img src="./public/icones/linkedin 1-1.svg" alt="LinkedIn">
-        <img src="./public/icones/instagram 2-1.svg" alt="Insta">
-        <img src="./public/icones/MMI_dut_white_png 1.svg" alt="Logo MMI">
-        <p>Projet réalisé dans le cadre d’un exercice pédagogique au département MMi de Montbéliard</p>
+        <p class="suivre">SUIVEZ-NOUS ICI</p>
+        <img src="./public/icones/linkedin 1-1.svg" alt="LinkedIn" class="linked">
+        <img src="./public/icones/instagram 2-1.svg" alt="Insta" class="insta">
+        <img src="./public/icones/facebook 2-1.svg" alt="Facebook" class="facebook">
+        <img src="./public/icones/MMI_dut_white_png 1.svg" alt="Logo MMI" class="mmi">
+        <p class="projet">Projet réalisé dans le cadre d’un exercice pédagogique au département MMi de Montbéliard</p>
     </footer>
+</body>
+
+</html>
 </body>
 
 </html>

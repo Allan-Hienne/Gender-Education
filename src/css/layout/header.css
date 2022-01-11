@@ -8,13 +8,15 @@
         display:flex;
 }
 
-.menu2 {
-    position: absolute;
-    left: 84%;
-    right: 29.39%;
-    top: 2%;
-    bottom: 70.23%;
-    width: 44px;
-    height: 40px;
+.logoFR { position: relative;
+    top: 280px;
+    left: -160px;
+    margin-right: 5%;
+}
 
+.logoEn {
+    
+    position: relative;
+    top: 280px;
+    left: -160px;
 }

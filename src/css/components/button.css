@@ -17,3 +17,9 @@
     margin-right: 10%;
 
 }
+
+#scrollUp
+{
+
+    transition: all .2s ease;
+}

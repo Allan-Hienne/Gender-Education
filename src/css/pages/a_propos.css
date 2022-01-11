@@ -1,0 +1,80 @@
+.italique {
+    font-style: italic;
+    font-weight: 100;
+    font-family: var(--font-mont);
+    font-size: 18px;
+}
+
+.enCours {
+    font-style: italic;
+    font-weight: 100;
+    font-family: var(--font-mont);
+    font-size: 12px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.vidMmi {
+    width: 375px;
+    height: 214px;
+}
+
+.contact_input {
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-left: 30px;
+    text-align:left;
+    display: flex;
+    
+}
+
+.contact_message {
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+    text-align:left;
+    display: flex;
+    width: 75%;
+}
+
+
+.contact_button {
+   border-radius: 10px;
+   background-color: #000000;
+   position: relative;
+   left: 100px;
+   color:#FFFFFF ;
+   padding-right: 10px ;    
+   padding-left: 10px ;   
+   margin-top: 10px; 
+   position: relative; 
+   left: 60%;   
+   font-family:var(--font-mont);
+   font-weight: 300;
+
+}
+
+.facebookG {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 35px;
+}
+
+.linkedG {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+
+.instaG {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
