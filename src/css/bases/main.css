@@ -1,5 +1,6 @@
 body {
-    background: linear-gradient(180deg, #03045E 0%, #3E3A8F 32.81%, #03045E 100%);
+    background: linear-gradient(180deg, #03045E 0%, #3E3A8F 32.81%, #03045E 100%) fixed;
+    line-height: normal;
 }
 
 
