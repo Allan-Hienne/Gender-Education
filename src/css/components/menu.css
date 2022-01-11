@@ -1,6 +1,7 @@
 a {
     text-decoration: none;
     color: white;
+
 }
 
 .nav-toggle {
@@ -60,7 +61,6 @@ a {
     bottom: 0;
     display: flex;
     align-items: center;
-    justify-content: center;
     transform: translateY(-250vw);
     transition: all .4s;
     z-index: 1;
