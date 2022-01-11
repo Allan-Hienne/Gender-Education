@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site sur l'histoire de l'éducation des femmes">
+    <title>Gender Education</title>
+    
+    
+    <link rel="stylesheet" href="./src/style.css">
+    
+    <script src="https://animejs.com/lib/anime.min.js"> </script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <header>
+
+        <a href="EN_index.html">
+            <img src="public/icones/Logo GE 1.svg" alt="Logo" class="GE">
+            </a>
+        
+           <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
+               <div class="nav-toggle-bar"></div>
+           </div>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="EN_education.html"><img src="./public/icones/Bouton Education.svg" alt="logoEducation"></a></li>
+                <li><a href="EN_emma.html"><img src="./public/icones/Bouton Emma WATSON.svg" alt="emma"></a></li>
+                <li><a href="EN_disney.html"><img src="./public/icones/Bouton Disney.svg" alt="disney"></a></li>
+                <li><a href="EN_galerie.html"><img src="./public/icones/Bouton Gallery.svg" alt="galerie"></a></li>
+                <li><a href="EN_aPropos.html"><img src="./public/icones/Bouton About us.svg" alt="aPropos"></a></li>
+                <li><a href="EN_autres.html"><img src="./public/icones/Bouton Others Projects.svg" alt="autres"></a></li>
+            </ul> 
+            <a class="logoFR" href="index.html"><img src="./public/icones/Bouton Français.svg" alt="logoFr" ></a>
+            <a class="logoEn" href="EN_index.html"><img src="./public/icones/Bouton Anglais.svg" alt="logoEn" ></a> 
+        </nav>
+        
+    </header>
+
+        <main>
+            <h2>A part of feminism at Disney</h2>
+            <p>Poster of the movie "Beauty and the Beast"</p>
+            <img src="./public/img/Photo du film La Belle et la Bête 2.svg" alt="La belle et la bête" class="affiche">
+            <p>When we were children, most of our parents told us dozens or even hundreds of fairy tales. But did you know that among these stories, we could see a part of feminism? That's what we're going to talk about today, and more particularly about the adaptation of "Beauty and the Beast" in the cinema.
+            </p>
+            <p class="titreArticle">When the princess saves the prince</p>
+            <p>Beauty and the Beast is basically a tale about a young woman called "the beauty" who wanted to save her father who was sentenced to death for picking a rose in the domain of a terrible monster called "the beast". The beautiful one then sacrificed herself to this one by exchanging her life against that of her father. But the beast decided to spare the beauty and allowed her to live in his castle. It is thus by living side by side that the beautiful one realized that behind the features of the wild animal, hid in fact a man suffering and victim of a spell. This tale has been the subject of many adaptations, whether in film, theater or books, the most famous being the adaptation made for children by the Disney studios.
+                This tale is of a very new kind, it is one of the first where the princess saves the prince, and not the other way around. Indeed, in a first time it is she who saves the beast from the terrible Gaston, the antagonist of the story. Then in a second time, it is she who delivers him from the curse of which he was victim.
+            </p>
+            <p>Trailer of the film in French</p>
+            <video controls width="375">
+
+                <source src="./public/video/Bande annonce.mp4"
+                        type="video/mp4">
+            </video>
+            <p class="titreArticle">Books and knowledge, an independence</p>
+            <p>This part of the story is more developed in the very recent film adaptation where the actress and feminist Emma Watson plays the main character "Belle".
+                According to the actress, "Belle's thirst for knowledge, which she quenches through books, plays a major role in her independence."
+                
+                The young woman accumulating knowledge will go so far as to create a washing machine, thus freeing women from household chores. This invention allows women to learn to read and go to school. However, if the women welcome the invention with open arms, it is far from pleasing the villagers who will destroy it thereafter.
+                This is explained by the fact that the inhabitants do not think that a woman should be able to read or write, they are suspicious of intelligence. A woman with knowledge at that time was very badly perceived by men. By breaking this washing machine, they hope to break the spirit of Belle becoming more and more independent and thus push her to become a "normal" woman again.
+            </p>
+
+            <p class="titreArticle">Other examples</p>
+            <div class="espaceC">
+            <p>Beauty and the Beast is not the only work where the female character shines on the male character, so we will see some of these works.
+                To start, one of Disney's strongest heroines, Pocahontas.
+                A young woman fighting to keep the peace between her Indian people and the colonists who invade America.
+                Indeed, it is Pocahontas who saves John Smith on many occasions and not the other way around. The work contains many lessons about love, respect and equality.
+                
+                To continue, Merida from the Disney movie "Rebel" is also a great example of a strong female character.
+                A woman who has no say in front of her parents, her problem being an aranged marriage. The strongest one during a festival will receive Merida's hand, however she will go as far as to participate herself in this festival of which she is the prize to get out of this situation.
+                How to talk about strong women in Disney movies without mentioning Mulan? Heroine who will go as far as to impersonate a man to save the whole of China. She will prove to us throughout the adventure that a woman can do everything exactly like a man and even better! Mulan doesn't care about gender stereotypes, she commands respect.
+            </p>
+            </div>
+            <div class="Car">
+            <div class="container">
+                <input type="radio" name="slider" id="item-1" checked>
+                <input type="radio" name="slider" id="item-2">
+                <input type="radio" name="slider" id="item-3">
+              <div class="cards">
+                <label class="card" for="item-1" id="song-1">
+                  <img src="./public/img/Mulan 1.svg" alt="song" class="imgC">
+                </label>
+                <label class="card" for="item-2" id="song-2">
+                  <img src="./public/img/Pocahontas 1.svg" alt="song" class="imgC">
+                </label>
+                <label class="card" for="item-3" id="song-3">
+                  <img src="./public/img/Rebelle 1.svg" alt="song" class="imgC">
+                </label>
+              </div>
+              <div class="player">
+                <div class="upper-part">
+                  <div class="play-icon">
+                    
+                      <defs/>
+                      <path d="M5 3l14 9-14 9V3z"/>
+                    </svg>
+                  </div>
+                  <div class="info-area" id="test">
+                    <label class="song-info" id="song-info-1">
+                      <div class="title">Mulan</div>
+                      <div class="sub-line">
+                        <div class="subtitle">Film poster</div>
+                      </div>
+                    </label>
+                    <label class="song-info" id="song-info-2">
+                      <div class="title">Pocahontas</div>
+                      <div class="sub-line">
+                        <div class="subtitle">Film poster</div>
+                      </div>
+                    </label>
+                    <label class="song-info" id="song-info-3">
+                      <div class="title">Brave</div>
+                      <div class="sub-line">
+                        <div class="subtitle">Film poster</div>
+                      </div>
+                    </label>
+                  </div>
+                </div>
+                <div class="progress-bar">
+                </div>
+              </div>
+            </div>
+        </div>
+            
+            <img src="./public/icones/élément graphique.svg" alt="Ligne blanc" class="ligne">
+
+
+            <div class="lire">
+                <p class="lireAussi">Read also</p>
+            </div>
+    
+            <article>
+                <h1>Education, an essential role</h1>
+                <img src="./public/img/Ouverture des lycées pour femme.svg" alt="école" class="ecole">
+                <h3>
+                    In France, the right to schooling for women was a long and difficult battle.
+                                However, equality with men remains incomplete.
+                </h3>
+        
+                <a href="EN_education.html" class="button">Read the article</a>
+                <img src="./public/icones/Line 12.svg" alt="ligne noir" class="ligne">
+            </article>
+        
+            <article>
+                <h1>Emma Watson, an important icon of feminism</h1>
+                <img src="./public/img/Portrait Emma WATSON.svg" alt="Portrait Emma Watson" class="emma">
+                <h3>Born April 15, 1990, Emma Watson, a committed actress, UN Women Goodwill Ambassador, is now an important figure in feminism.</h3>
+                <a href="EN_emma.html" class="button">Read the article</a>
+                <img src="./public/icones/Line 12.svg" alt="Ligne noir" class="ligne">
+            </article>
+    
+    
+            <div id="scrollUp">
+                <a href="#top"><img src="./public/icones/Flèche Back-up.svg" alt="Flêche back to top" class="flecheTop"></a>
+            </div>
+        
+            </main>
+        
+        
+            <footer>
+                <p class="suivre">FOLLOW US HERE</p>
+                <a href="https://www.linkedin.com/in/allan-hienne-87500b222/">
+                    <img src="./public/icones/linkedin 1-1.svg" alt="LinkedIn" class="linked">
+                </a>
+                <a href="https://www.instagram.com/allan_hne/">
+                    <img src="./public/icones/instagram 2-1.svg" alt="Insta" class="insta">
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=100012104652628">
+                    <img src="./public/icones/facebook 2-1.svg" alt="Facebook" class="facebook">
+                </a>
+                <a href="http://mmimontbeliard.com/">
+                    <img src="./public/icones/MMI_dut_white_png 1.svg" alt="Logo MMI" class="mmi">
+                    <p class="projet">Project carried out as part of an educational exercise at the MMi department of Montbéliard</p>
+                </a>
+            </footer>
+        </body>
+        
+        </html>
